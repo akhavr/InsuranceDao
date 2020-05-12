@@ -63,6 +63,8 @@ Investor:
 4. Investor votes on project.
 5. Investor delegates his voting power to another investor.
 
+[Detailed investor usecases](./investor-usecases.md)
+
 Donor:
 
 1. Donor provides funds to cover approved claims and to fund projects as a donation.  There's nothing else a donor can do.
@@ -71,6 +73,8 @@ Holder:
 
 1. Holder buys an insurance.
 2. Holder submits a claim.
+
+[Detailed holder usecases](./holder-usecases.md)
 
 ## Open questions
 
