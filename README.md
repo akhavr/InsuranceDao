@@ -4,6 +4,8 @@ Goal: allow entities unite to protect against the risk of individual events (as 
 
 Design principles: start from simplest possible thing to prove technical feasibility, product-market fit, and minimize security surface.
 
+Right now it's planned to implement the Insurance DAO using [MolochDAO](https://github.com/MolochVentures/moloch) code.  At most - by forking and developing on it.
+
 ## Roles
 
 - investor
@@ -87,10 +89,16 @@ A. Reputation is subjective.  Your insurance DAO would be able to build its repu
 
 Q. How investors would be protected from legal risks?
 A.
-- Option 1: register DAO as LAO and get legal protection
+- Option 1: register DAO as [LAO](https://github.com/MolochVentures/moloch#molochlao) and get legal protection
 - Option 2: buy insurance in another DAO against legal risks
 - Option 3a: create DAO based on zkDAI (aztec protocol)
 - Option 3b: invest through tornado.cash (into existing DAO)
 
 Q. In the suggested model investors hold all risks.  Meanwhile, in current western insurance model, 70%-80% of paid claims are reimbursed via reinsurance and/or regress claim.  How this would be solved?
 A. A finace model of current western insurance company is based on developed risk markets.  Now risk markets in crypto are in a nascent stage.  When they would have sufficient liquidity, DAO investors would be able to buy such products using "finance the project" option.
+
+## Further reading
+
+- https://github.com/MolochVentures/moloch/tree/master/v1_contracts
+- https://github.com/metacartel/MCV/blob/master/MCV-Whitepaper.md
+- https://medium.com/@thelaoofficial/the-lao-joins-forces-with-moloch-dao-and-metacartel-to-begin-to-standardize-dao-related-smart-b6ee4b0db071
