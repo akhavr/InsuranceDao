@@ -11,7 +11,7 @@ with parameters:
 
 - `applicant` - address of the proposed investor.  If investor wants to increase his position, `applicant` should be equal to his address
 - `sharesRequested` - voting shares requested by this investor,
-- `lootRequested` - nonvoting shares requested by this investor, expecte to be zero,
+- `lootRequested` - nonvoting shares requested by this investor, expected to be zero,
 - `tributeOffered` - investment amount,
 - `tributeToken` - investment token, should be whitelisted to, say, cDAI,
 - `paymentRequested` - should be zero,
