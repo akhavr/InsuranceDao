@@ -47,7 +47,7 @@ Investor calls [ragequit](https://github.com/MolochVentures/moloch/blob/7db37056
 or less number of this investor's nonvoting shares
 
 After this call succeedes, investor can withdraw his tokens by calling
-`withdrawBalances`[https://github.com/MolochVentures/moloch/blob/7db370566a5d8c3bad3624700a4ca710c8cf35b4/contracts/Moloch.sol#L577]
+[withdrawBalances](https://github.com/MolochVentures/moloch/blob/7db370566a5d8c3bad3624700a4ca710c8cf35b4/contracts/Moloch.sol#L577)
 with parameters:
 
 - `tokens` - list of tokens addresses to be withdrawn
