@@ -4,7 +4,7 @@ Donor:
 
 Donor donates funds to cover approved claims with an intent to support the cause.
 
-Existing investor (sponsor) should call [submitProposal](https://github.com/MolochVentures/moloch/blob/7db370566a5d8c3bad3624700a4ca710c8cf35b4/contracts/Moloch.sol#L176)
+Donor should call [submitProposal](https://github.com/MolochVentures/moloch/blob/7db370566a5d8c3bad3624700a4ca710c8cf35b4/contracts/Moloch.sol#L176)
 with parameters:
 
 - `applicant` - address of the proposed donor
@@ -16,7 +16,7 @@ with parameters:
 - `paymentToken` - should be equal to investment token,
 - `details` - url or ipfs hash of investor proposal
 
-After the call, sponsor should call
+After the call, existing investor (sponsor) should call
 [sponsorProposal](https://github.com/MolochVentures/moloch/blob/7db370566a5d8c3bad3624700a4ca710c8cf35b4/contracts/Moloch.sol#L268)
 [onlyDelegate](https://github.com/MolochVentures/moloch/tree/master/v1_contracts#onlymemberdelegate)
 to sponsor the proposal to start its voting period; the required
