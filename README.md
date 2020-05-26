@@ -69,6 +69,8 @@ Donor:
 
 1. Donor provides funds to cover approved claims and to fund projects as a donation.  There's nothing else a donor can do.
 
+[Detailed donor usecases](./donor-usecases.md)
+
 Holder:
 
 1. Holder buys an insurance.
